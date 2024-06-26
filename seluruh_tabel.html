@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>KEMENDIKBUDRISTEK</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/seluruh_Tabel.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="text-white">
+      <div class="container-fluid d-flex">
+        <div class="navbar-brand">
+          <img src="img/logo-kemdikbud.png" alt="Logo" height="96" />
+          KEMENDIKBUDRISTEK
+        </div>
+        <div class="col-md-10 d-flex justify-content-end">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="#about" class="text-white mx-2 nav-link">Beranda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white mx-2"
+                  href="#"
+                  id="navbarDropdownTentang"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Data Penyaluran
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownTentang"
+                >
+                  <a class="dropdown-item" href="#">Pemberian Nasional</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Pemberian Per Wilayah</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Nominasi Nasional</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Nominasi Per Wilayah</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-header text-white ml-4 shadow">
+                  Log in
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="nomination rounded-lg mb-5">
+          <h5 class="card-title mx-3"><strong>Nominasi Propinsi</strong></h5>
+          <p class="card-text ml-3">
+            <strong>Data Pencarian:</strong
+            ><span class="badge badge-danger ml-2">SD: 2024-06-15</span>
+            <span class="badge badge-primary ml-2">SMP: 2024-06-15</span>
+            <span class="badge badge-success ml-2">SMA: 2024-06-14</span>
+            <span class="badge badge-info ml-2">SMK: 2024-06-14</span>
+          </p>
+        </div>
+        <div class="content rounded">
+          <div class="data-table rounded">
+            <div class="form" style="background-color: #f7f7f7;">
+              <div class="d-flex align-items-center mb-3">
+                <h5 class="mb-0 mr-5">Tahun</h5>
+                <select class="form-control ml-5" style="width: 1000px">
+                  <option value="2024">2024</option>
+                </select>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+                <h4 class="mb-0"><strong>Siswa</strong></h4>
+                <div class="nav-item">
+                  <button
+                    class="btn btn-header text-white ml-4 shadow"
+                    style="background-color: #49a0b5"
+                  >Detail
+                  </button>
+                </div>
+              </div>
+            <table class="table rounded">
+              <thead>
+                <tr>
+                  <th>Jenjang</th>
+                  <th>SK</th>
+                  <th>Aktivasi</th>
+                  <th>Belum Aktivasi</th>
+                  <th>% Aktivasi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>SD</td>
+                  <td>1,049,023</td>
+                  <td>382,279</td>
+                  <td>666,744</td>
+                  <td>36.44%</td>
+                </tr>
+                <tr>
+                  <td>SMP</td>
+                  <td>422,158</td>
+                  <td>194,371</td>
+                  <td>227,787</td>
+                  <td>46.04%</td>
+                </tr>
+                <tr>
+                  <td>SMA</td>
+                  <td>1,047,250</td>
+                  <td>442,309</td>
+                  <td>604,941</td>
+                  <td>42.24%</td>
+                </tr>
+                <tr>
+                  <td>SMK</td>
+                  <td>862,552</td>
+                  <td>392,045</td>
+                  <td>470,507</td>
+                  <td>45.46%</td>
+                </tr>
+                <tr class="total-row">
+                  <td>Total</td>
+                  <td>3,380,983</td>
+                  <td>1,411,004</td>
+                  <td>1,969,979</td>
+                  <td>0.00%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-white py-4">
+      <div class="container-fluid">
+        <div class="row mx-5">
+          <div class="col-md-4 text-center text-md-left mb-3 mb-md-0 mt-3">
+            <img
+              src="img/logo-kemdikbud.png"
+              alt="Logo"
+              class="img-fluid"
+              style="max-width: 150px"
+            />
+            <br />
+            <br />
+            <p>PUSAT LAYANAN PEMBIAYAAN PENDIDIKAN</p>
+            <p>KEMENTERIAN PENDIDIKAN, KEBUDAYAAN,</p>
+            <p>RISET dan TEKNOLOGI</p>
+            <br />
+          </div>
+          <div class="col-md-4 mt-5 mb-3 mb-md-0 d-flex align-items-start">
+            <i
+              class="material-icons"
+              style="font-size: 20px; margin-right: 10px"
+              >place</i
+            >
+            <div>
+              <p>
+                Gedung C Lantai 13, Jl. Jenderal Sudirman Senayan, Jakarta Pusat
+                10270
+              </p>
+              <p><strong>Telepon</strong> : Hotline 177</p>
+              <p><strong>Surel</strong> : Pengaduan@Kemdikbud.Go.Id; Dan</p>
+              <p><strong>Laman</strong> : Ult.Kemdikbud.Go.Id</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center text-md-left mt-5">
+            <p>
+              Pengaduan terkait PIP melalui Unit Layanan Terpadu (ULT)
+              Kemdikbudristek
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
