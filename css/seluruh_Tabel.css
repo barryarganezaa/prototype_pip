@@ -1,3 +1,46 @@
+@media (max-width: 767.98px) {
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .ml-auto {
+        margin-left: 0 !important;
+    }
+
+    .continers {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .beranda img{
+        display: none;
+    }
+
+    .beranda h5{
+        display: none;
+    }
+
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.continers {
+    max-width: 80%;
+    margin: auto;
+}
+
 body {
     font-family: 'Poppins';
     color: #333;
@@ -67,24 +110,40 @@ tbody tr:nth-child(even) {
     color: white;
 }
 
-.navbar{
-    flex-grow: 1;
-    justify-content: flex-end;
+.btn-header {
+    background-color: #55B084;
+    border-color: #55B084;
+    width: 80px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-nav{
-    margin-left: auto;
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
 }
 
-.navbar-brand .logo {
-    width: 40px;
-    height: auto;
-    margin-right: 10px;
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.navbar-brand {
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #333;
     color: white;
-    font-weight: bold;
+}
+
+.navbar-nav .dropdown-item {
+    color: white;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #55B084;
+}
+
+.beranda img{
+    width: 96px;
 }
 
 .content {
@@ -96,8 +155,6 @@ tbody tr:nth-child(even) {
 }
 
 main {
-    width: 90%;
-    margin: 20px auto;
     color: #000000;
     border-radius: 10px;
 }
@@ -161,26 +218,10 @@ main {
     text-align: center;
 }
 
-footer {
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-    font-size: 16px;
+footer p{
+    font-size: large;
 }
 
-.container-fluid {
-    padding-left: 100px;
-    padding-right: 50px;
-}
-
-footer .row > .col-md-4 {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.footer-content {
-    width: 90%;
-    margin: 0 auto;
+footer img{
+    width: 100px;
 }

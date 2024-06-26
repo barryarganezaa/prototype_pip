@@ -1,83 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <title>KEMENDIKBUDRISTEK</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/seluruh_Tabel.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <header class="text-white">
-      <div class="container-fluid d-inline-flex">
-        <div class="navbar-brand">
-          <img src="img/logo-kemdikbud.png" alt="Logo" height="96" />
-          KEMENDIKBUDRISTEK
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <title>KEMENDIKBUDRISTEK</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/seluruh_Tabel.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="container-fluid continers">
+    <header class="text-white py-3">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-3 col-sm-6 col-0 d-flex align-items-center justify-content-center beranda">
+          <img src="img/logo-kemdikbud.png" alt="Logo" class=" img-fluid" />
+          <h5 class="text-uppercase font-weight-bold  ml-3">KEMENDIKBUDRISTEK</h5>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a href="#about" class="text-white mx-2 nav-link">Beranda</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white mx-2"
-                href="#"
-                id="navbarDropdownTentang"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Data Penyaluran
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownTentang"
-              >
-                <a class="dropdown-item" href="#">Pemberian Nasional</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Pemberian Per Wilayah</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Nominasi Nasional</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Nominasi Per Wilayah</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <button class="btn btn-header text-white ml-4 shadow">
-                Log in
-              </button>
-            </li>
-          </ul>
-        </nav>
+        <div class="col-lg-9 col-sm-6  col-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a href="#about" class="text-white mx-2 nav-link">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white mx-2" href="#" id="navbarDropdownTentang" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Data Penyaluran
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownTentang">
+                    <a class="dropdown-item" href="#">Pemberian Nasional</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Pemberian Per Wilayah</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Nominasi Nasional</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Nominasi Per Wilayah</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-header text-white ml-4 shadow">
+                    Log in
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
-    
+
+
     <main>
       <div class="svg-background">
-        <svg id="background-svg" width="50" height="50" viewBox="0 200 700 700" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path opacity="1" fill-rule="evenodd" clip-rule="evenodd" d="M302.669 404.504C392.613 311.601 373.455 185.521 259.88 122.896C146.305 60.2719 -18.6797 84.8179 -108.623 177.721C-117.244 186.626 -124.862 195.835 -131.491 205.264C-146.321 212.721 -159.349 221.983 -170.061 233.048C-235.378 300.515 -189.914 409.473 -68.5146 476.412C52.8847 543.351 204.248 542.923 269.565 475.456C288.615 455.779 298.241 432.573 299.309 407.909C300.44 406.784 301.561 405.649 302.669 404.504Z" fill="#D9D9D9" fill-opacity="0.1"/>
+        <svg id="background-svg" width="50" height="50" viewBox="0 200 700 700" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path opacity="1" fill-rule="evenodd" clip-rule="evenodd"
+            d="M302.669 404.504C392.613 311.601 373.455 185.521 259.88 122.896C146.305 60.2719 -18.6797 84.8179 -108.623 177.721C-117.244 186.626 -124.862 195.835 -131.491 205.264C-146.321 212.721 -159.349 221.983 -170.061 233.048C-235.378 300.515 -189.914 409.473 -68.5146 476.412C52.8847 543.351 204.248 542.923 269.565 475.456C288.615 455.779 298.241 432.573 299.309 407.909C300.44 406.784 301.561 405.649 302.669 404.504Z"
+            fill="#D9D9D9" fill-opacity="0.1" />
         </svg>
       </div>
       <div class="container-fluid">
         <div class="nomination rounded-lg mb-5">
           <h5 class="card-title mx-3"><strong>Nominasi Propinsi</strong></h5>
           <p class="card-text ml-3">
-            <strong>Data Pencarian:</strong
-            ><span class="badge badge-danger ml-2">SD: 2024-06-15</span>
+            <strong>Data Pencarian:</strong><span class="badge badge-danger ml-2">SD: 2024-06-15</span>
             <span class="badge badge-primary ml-2">SMP: 2024-06-15</span>
             <span class="badge badge-success ml-2">SMA: 2024-06-14</span>
             <span class="badge badge-info ml-2">SMK: 2024-06-14</span>
@@ -87,22 +83,19 @@
           <div class="data-table rounded">
             <div class="form" style="background-color: #f7f7f7;">
               <div class="d-flex align-items-center mb-3">
-                <h5 class="mb-0 mx-5" style="font-size: 15px;">Tahun</h5>
-                <select class="form-control ml-5 mt-2" style="width: 1000px">
+                <h5 class="mb-0 mx-2 mx-md-5" style="font-size: 15px;">Tahun</h5>
+                <select class="form-control mx-md-5 mx-2 mt-2" style="width: 1000px">
                   <option value="2024">2024</option>
                 </select>
               </div>
             </div>
             <div class="d-flex align-items-center my-3">
-                <h4 class="mb-0"><strong>Siswa</strong></h4>
-                <div class="nav-item">
-                  <button
-                    class="btn btn-header text-white ml-4 shadow"
-                    style="background-color: #49a0b5"
-                  >Detail
-                  </button>
-                </div>
+              <h4 class="mb-0"><strong>Siswa</strong></h4>
+              <div class="nav-item">
+                <button class="btn btn-header text-white ml-4 shadow" style="background-color: #49a0b5">Detail
+                </button>
               </div>
+            </div>
             <table class="table rounded">
               <thead>
                 <tr>
@@ -155,47 +148,50 @@
         </div>
       </div>
     </main>
-    <footer class="text-white py-4">
-      <div class="container-fluid d-flex">
-        <div class="row mx-5">
-          <div class="col-md-4 text-center text-md-left mb-3 mb-md-0 mt-3">
-            <img
-              src="img/logo-kemdikbud.png"
-              alt="Logo"
-              class="img-fluid"
-              style="max-width: 100px"
-            />
-            <br />
-            <br />
-            <p>PUSAT LAYANAN PEMBIAYAAN PENDIDIKAN</p>
-            <p>KEMENTERIAN PENDIDIKAN, KEBUDAYAAN,</p>
-            <p>RISET dan TEKNOLOGI</p>
-            <br />
-          </div>
-          <div class="col-md-4 mt-5 mb-3 mb-md-0 d-flex align-items-start">
-            <i
-              class="material-icons"
-              style="font-size: 20px; margin-right: 10px"
-              >place</i
-            >
-            <div>
-              <p>
-                Gedung C Lantai 13, Jl. Jenderal Sudirman Senayan, Jakarta Pusat
-                10270
-              </p>
-              <p><strong>Telepon</strong> : Hotline 177</p>
-              <p><strong>Surel</strong> : Pengaduan@Kemdikbud.Go.Id; Dan</p>
-              <p><strong>Laman</strong> : Ult.Kemdikbud.Go.Id</p>
-            </div>
-          </div>
-          <div class="col-md-4 text-center text-md-left mt-5">
-            <p>
-              Pengaduan terkait PIP melalui Unit Layanan Terpadu (ULT)
-              Kemdikbudristek
-            </p>
-          </div>
+
+
+  </div>
+
+  <footer class="text-white mt-5 fonw">
+    <hr class=" text-white bg-white">
+    <div class=" continers container-fluid">
+      <div class="row py-5">
+        <div class="col-md-4 ">
+          <img src="img/logo-kemdikbud.png" alt="Logo" class="img-fluid" />
+          <h5 class=" mt-3 mt-md-4 text-uppercase">
+            PUSAT LAYANAN PEMBIAYAAN PENDIDIKAN KEMENTERIAN PENDIDIKAN,
+            KEBUDAYAAN, RISET DAN TEKNOLOGI
+          </h5>
+        </div>
+        <div class="col-md-4 ">
+          <p>
+            Gedung C Lantai 13, Jl. Jenderal Sudirman Senayan, Jakarta Pusat
+            10270
+          </p>
+          <p><span class=" font-weight-bolder">Telepon</span> : Hotline 177</p>
+          <p><span class=" font-weight-bold">Surel</span> : Pengaduan@Kemdikbud.Go.Id; Dan</p>
+          <p><span class=" font-weight-bold">Laman</span> : Ult.Kemdikbud.Go.Id</p>
+        </div>
+        <div class="col-md-4 text-center text-md-left">
+          <p>
+            Pengaduan terkait PIP melalui Unit Layanan Terpadu (ULT)
+            Kemdikbudristek
+          </p>
         </div>
       </div>
-    </footer>
-  </body>
+    </div>
+    <hr class=" text-white bg-white m-0">
+    <div class=" d-flex align-items-center justify-content-center text-center font-weight-light text-white py-2">
+      <p class="mb-0 font-weight-lighter mx-3" style="font-size: small;">Copyright © 2020–2022 PIP - Puslapdik</p>
+      <div>
+        <a href="#" class=" text-decoration-none text-white mx-2"><i class="fab fa-facebook-f "></i></a>
+        <a href="#" class=" text-decoration-none text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class=" text-decoration-none text-white mx-2"><i class="fab fa-twitter"></i></a>
+        <a href="#" class=" text-decoration-none text-white mx-2"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
 </html>
