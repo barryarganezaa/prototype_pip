@@ -312,47 +312,6 @@ footer img {
     border-top: 0px solid rgb(3, 103, 166);
 }
 
-/* .login-container {
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-
-.login-box {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    max-width: 900px;
-    width: 100%;
-    box-shadow: inset;
-}
-
-.login-left {
-    background-color: #007bff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    flex: 1;
-}
-
-.logo {
-    max-width: 100%;
-    height: auto;
-}
-
-.login-right {
-    padding: 30px;
-    flex: 1;
-    margin-left: 20px;
-    border-left: 2px solid rgb(3, 103, 166);
-    ;
-} */
-
 .form-group label {
     font-weight: bold;
 }
@@ -370,3 +329,79 @@ body h2 {
 .btn-submit {
     background-color: #2C8BB7;
 }
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions Section
+--------------------------------------------------------------*/
+.faq .content h3 {
+    font-weight: 400;
+    font-size: 34px;
+  }
+  
+  .faq .content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  
+  .faq .content p {
+    font-size: 17px;
+    color: #6c757d;
+  }
+  
+  .faq .accordion-item {
+    border: 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    background-color: #2C8BB7;
+    color: #fff;
+  }
+  
+  .faq .accordion-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .faq .accordion-collapse {
+    border: 0;
+  }
+  
+  .faq .accordion-button {
+    padding: 20px 50px 20px 20px;
+    font-weight: 300;
+    border: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-default);
+    text-align: left;
+    background: #2C8BB7;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  
+  .faq .accordion-button .num {
+    padding-right: 10px;
+    font-size: 20px;
+    line-height: 0;
+    color: var(--color-primary);
+  }
+  
+  .faq .accordion-button:not(.collapsed) {
+    color: var(--color-primary);
+    border-bottom: 0;
+    box-shadow: none;
+  }
+  
+  .faq .accordion-button:after {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .faq .accordion-body {
+    padding: 0 40px 30px 45px;
+    border: 0;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: none;
+  }
